@@ -3,8 +3,8 @@
 
 <head>
 
+    <!-- Adding necessary information/connecting to css doc-->
     <title>hw-02</title>
-
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -99,6 +99,7 @@
                 </ul>
         </div>
     </div>
+
     <!-- Part Two: Task Abstraction -->
     <div id="task-abstraction" class="container">
 
@@ -110,8 +111,11 @@
 
             <!-- Column 1: adding info for visualization 1 -->
             <div>
-                <img src="img/vis1.png" alt="visualization1" width="400px">
-                <p id="flex-text">
+                <!-- Adding image -->
+                <center><img src="img/vis1.png" alt="visualization1" width="400px" class="center-image"></center>
+
+                <!-- Adding text -->
+                <p class="flex-text">
                     <b>High Level:</b> Consume -> Present. The information is being presented directly to us and in a way that's easy to understand. There is a clear message that the creators want shared with the audience, as there are dots highlighted in red to indicate something different.<br>
                     <b>Medium Level:</b> Lookup. The information for the past three days is highlighted in the visualization; our target is the temperature in the past three days, and the location is Vancouver.<br>
                     <b>Low Level:</b> Summarize. All of the information received is plotted on the graph; we can see the big picture of the temperatures and have all of the information regarding the temperate in Vancouver.<br>
@@ -121,8 +125,11 @@
 
             <!-- Column 2: adding info for visualization 2 -->
             <div>
-                <img src="img/vis2.png" alt="visualization2" width="400px">
-                <p id="flex-text">
+                <!-- Adding image -->
+                <center><img src="img/vis2.png" alt="visualization2" width="400px" class="center-image"></center>
+
+                <!-- Adding text -->
+                <p class="flex-text">
                     <b>High Level:</b> Consume -> Present. The data is shown in a way that is simple, so it seems as if the goal is to share the data with others.<br>
                     <b>Medium Level:</b> Lookup. When were mean temperatures 20 degrees above normal in Portland and Seattle? We know what we're looking for (number of times mean temp was high) and we know where we're looking at (Portland, Seattle).<br>
                     <b>Low Level:</b> Compare. We are comparing Seattle and Portland, as the visualization is "split" into two.<br>
@@ -135,14 +142,14 @@
 
     <!-- Part Three: Decoration -->
     <div id="decoration">
+
+        <!-- Creating shapes in viewBox to maintain aspect ratio -->
         <svg viewBox="0 0 500 100" width="100%">
-            <circle cx="25" cy="25" r="20" fill="blue" fill-opacity="0.5" />
-            <rect x="80" y="18" width="30" height="15" fill="blue" />
-            <circle cx="165" cy="25" r="20" fill="blue" fill-opacity="0.5" />
-            <rect x="220" y="18" width="30" height="15" fill="blue" />
-            <circle cx="305" cy="25" r="20" fill="blue" fill-opacity="0.5" />
-            <rect x="360" y="18" width="30" height="15" fill="blue" />
-            <circle cx="445" cy="25" r="20" fill="blue" fill-opacity="0.5" />
+            <circle cx="40" cy="55" r="30" fill="currentColor" />
+            <rect x="115" y="40" width="50" height="30" fill="currentColor" />
+            <circle cx="240" cy="55" r="30" fill="currentColor" />
+            <rect x="315" y="40" width="50" height="30" fill="currentColor" />
+            <circle cx="440" cy="55" r="30" fill="currentColor" />
         </svg>
     </div>
 
@@ -151,6 +158,13 @@
         <div>
             <ul>
                 <li><a href="https://www.w3schools.com/html/default.asp"> w3schools HTML </a></li>
+                <li><a href="https://css-tricks.com/change-color-of-svg-on-hover/"> CSS-Tricks: Changing SVG color on hover </a></li>
+                <li><a href="https://css-tricks.com/scale-svg/"> CSS-Tricks: Scaling SVG</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp"> w3schools CSS </a></li>
+                <li><a href="https://www.geeksforgeeks.org/css-fill-opacity-property/"> Geeks for Geeks: fill-opacity CSS</a></li>
+                <li><a href="https://www.w3schools.com/graphics/svg_intro.asp"> w3schools SVG Introduction </a></li>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> CSS-Tricks: Flexbox </a></li>
+                <li><a href="https://www.computerhope.com/issues/ch001613.htm"> Centering an Image w/ Computer Hope</a></li>
             </ul>
         </div>
 </body>

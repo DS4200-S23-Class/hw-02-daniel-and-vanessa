@@ -1,14 +1,11 @@
+/* Set font of website */
 body {
     font-family: Arial;
 }
 
+/* Set headers such that they were center, left aligned */
 div > h1 {
     text-align: center;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: center;
 }
 
 h2 {
@@ -19,12 +16,42 @@ h3 {
     text-align: center;
 }
 
+/* Flex container settings: setting display and text color */
+.flex-container {
+    display: flex;
+}
+
+.flex-text {
+    color: purple;
+}
+
+/* Setting information for the data table, such as borders/background color */
 th {
     background-color: lightskyblue;
-
 }
 
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+/* SVG alterations, some with hover if needed */
+rect {
+    color: blue;
+    stroke: green;
+    stroke-width: 2px;
+}
+
+rect:hover {
+    fill: red;
+}
+
+circle {
+    color: blue;
+    fill-opacity: 0.5;
+}
+
+circle:hover {
+    stroke: black;
+    stroke-width: 2px;
 }
