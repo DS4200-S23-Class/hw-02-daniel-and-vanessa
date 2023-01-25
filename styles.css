@@ -21,8 +21,15 @@ h3 {
     display: flex;
 }
 
-.flex-text {
+p {
     color: purple;
+}
+
+/* Centering the image: code from freeCodeCamp 
+https://www.freecodecamp.org/news/how-to-center-an-image-in-css/ */
+img {
+    margin: auto;
+    display: block;
 }
 
 /* Setting information for the data table, such as borders/background color */
