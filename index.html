@@ -13,7 +13,92 @@
 <body>
 
     <!-- Part One: Data Abstraction -->
+    <div id="data-abstraction" class="container">
+        <div class="info">
 
+            <!-- Add header for the div -->
+            <h1>Dataset Types</h1>
+
+            <!-- Create Table -->
+            <table>
+                <tr>
+                    <th>Data</th>
+                    <th>Link</th>
+                    <th>Dataset Type</th>
+                </tr>
+                <tr>
+                    <td>UFO</td>
+                    <td>
+                        <a href ="data/UFO.csv"> link </a>
+                    </td>
+                    <td>Table</td>
+                </tr>
+                <tr>
+                    <td>Airports</td>
+                    <td>
+                        <a href ="data/Airports.csv"> link </a>
+                    </td>
+                    <td>Geometry (spatial)</td>
+                </tr>
+                <tr>
+                    <td>Google-Web</td>
+                    <td>
+                        <a href ="data/Google-Web.txt"> link </a>
+                    </td>
+                    <td>Network</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Create div for data types section-->
+        <div class="info">
+            <h1>Data Types</h1>
+            <h2>UFO</h2>
+                <ul>
+                    <li>Row: item</li>
+                    <li>Datetime column: attribute</li>
+                        <ul>
+                            <li>type: ordinal (sequential)</li>
+                        </ul>
+                    <li>City column: attribute</li>
+                        <ul>
+                            <li>type: categorical</li>
+                        </ul>
+                    <li>State column: attribute</li>
+                        <ul>
+                            <li>type: categorical</li>
+                        </ul>
+                    <li>Country column: attribute</li>
+                        <ul>
+                            <li>type: categorical</li>
+                        </ul>
+                    <li>Shape column: attribute</li>
+                        <ul>
+                            <li>type: categorical</li>
+                        </ul>
+                    <li>Duration column: attribute</li>
+                        <ul>
+                            <li>type: quantitative (sequential)</li>
+                        </ul>
+                </ul>
+            <h2>Airports</h2>
+                <ul>
+                    <li>Row: item</li>
+                    <li>Airport name column: attribute</li>
+                        <ul>
+                            <li>type: categorical</li>
+                        </ul>
+                    <li>Latitude column: position</li>
+                    <li>Longitude column: position</li>
+                </ul>
+            <h2>Google-Web</h2>
+                <ul>
+                    <li>Row: item</li>
+                    <li>FromNodeID column: link</li>
+                    <li>ToNodeID column: link</li>
+                </ul>
+        </div>
+    </div>
     <!-- Part Two: Task Abstraction -->
     <div id="task-abstraction" class="container">
 
@@ -50,7 +135,12 @@
     <!-- Part Three: Decoration -->
 
     <!-- Acknowledgements -->
-
+    <h3>Acknowledgements</h3>
+        <div>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/default.asp"> w3schools HTML </a></li>
+            </ul>
+        </div>
 </body>
 
 </html>
